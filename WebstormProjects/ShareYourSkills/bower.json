@@ -1,0 +1,13 @@
+{
+  "name": "dieinison",
+  "description": "Projeto Angular de uma rede social para troca de conhecimentos",
+  "main": "index.js",
+  "authors": [
+    "dieinison"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Dieinison/ShareYourSkills.git",
+  "dependencies": {
+    "angular": "1.6.1"
+  }
+}

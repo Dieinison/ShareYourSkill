@@ -1,0 +1,26 @@
+<md-content class="md-padding" layout-xs="column" layout="row"
+            style="display: inline-block; margin: 10px 10px 10px 10px; background-color: #9C9C9C">
+    <md-card>
+        <img ng-src="images/{{md.details.img}}" class="md-card-image"
+             style="max-height:350px; max-width: 400px; margin: 20px 20px 0px 20px" />
+
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline" style="font-family: 'Open Sans Condensed', sans-serif;font-size: 20px;">
+                    Nome atividade: {{md.details.name}}</span>
+            </md-card-title-text>
+        </md-card-title>
+
+        <md-card-content>
+            <p style="font-family: 'Open Sans Condensed', sans-serif;font-size: 18px;">
+                Autor: {{md.details.author}} </p>
+            <p style="font-family: 'Open Sans Condensed', sans-serif;font-size: 18px;">
+                Descricao: {{md.details.description}} </p>
+        </md-card-content>
+
+        <!-- Ícones -->
+        <md-button style="background-color: darkred;
+                          margin-top: 30px; font-family: 'Open Sans Condensed', sans-serif;font-size: 15px;"
+                   class="md-warn md-raised md-hue-2">Fazer curso</md-button></li>
+    </md-card>
+</md-content>

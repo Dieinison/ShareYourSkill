@@ -1,0 +1,35 @@
+.error{ border: solid 1px red }
+.success { border: solid 1px green }
+
+.row.content {height: 1500px}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height: auto;}
+}
+
+.dj {
+    color: white;
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
